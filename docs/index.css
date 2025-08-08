@@ -584,6 +584,36 @@ body {
 
     .section-template--20036439671004__wave_new_LbgNdL {
         height: 80px !important;
+        bottom: 0 !important;
+        overflow: hidden !important;
+        position: relative !important;
+        line-height: 0 !important;
+    }
+
+    .wave-item-template--20036439671004__wave_new_LbgNdL,
+    .section-template--20036439671004__wave_new_LbgNdL-settings
+     {
+        position: relative !important;
+        height: 100% !important;
+        max-height: 100% !important;
+    }
+
+    .waves-animated-1 {
+        position: absolute !important;
+        display: block !important;
+        height: 100% !important;
+        min-height: 100% !important;
+        width: 100% !important;
+        bottom: 0 !important;
+        
+    }
+
+    .wave-parallax1-template--20036439671004__wave_new_LbgNdL,
+    .wave-parallax2-template--20036439671004__wave_new_LbgNdL,
+    .wave-parallax3-template--20036439671004__wave_new_LbgNdL,
+    .wave-parallax4-template--20036439671004__wave_new_LbgNdL {
+        height: 100% !important;
+        max-height: none !important;
     }
 
     .products-wrapper {
@@ -628,7 +658,7 @@ body {
         border: 0.5px solid white;
         width: 180px;
         align-self: center;
-        margin-top: 10px;
+        padding-top: 10px;
         opacity: 0.5;
     }
 
@@ -655,7 +685,7 @@ body {
     }
 
     .links {
-        margin-bottom: 10px !important;
+        padding-bottom: 10px !important;
         font-weight: 600;
         letter-spacing: -1px;
         font-size: 1.1rem;
